@@ -3,7 +3,8 @@
 Trabajo Final - Laboratorio II  
 Autor: Claudio Luis Campero  
 Facultad de Ciencias Exactas - Universidad Nacional de Salta (UNSa)  
-2026
+2026  
+Repositorio: <https://github.com>
 
 ## Descripción del problema
 
@@ -36,4 +37,5 @@ Para recompilar el informe PDF desde LaTeX:
 ## Limitaciones del modelo
 
 - El modelo lineal desprecia el amortiguamiento viscoso con el aire, las pérdidas en los anclajes y la rigidez a la flexión.
-- Los armónicos de alta frecuencia presentan un leve retardo de fase por dispersión numérica cerca del vértice discontinuo, conservando la energía discreta.
+- Los armónicos de alta frecuencia presentan un leve retardo de fase por dispersión numérica cerca del vértice discontinuo (que disminuye al reducir el paso temporal), conservando el invariante discreto de energía del esquema implícito.
+
